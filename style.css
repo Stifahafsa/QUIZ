@@ -1,0 +1,158 @@
+
+body {
+    background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: poppins;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+
+.container p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+}
+
+.btn-1 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #3a6186;
+    background-color: #fff;
+    width: 10rem;
+    border-radius: 15px;
+    border: none;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+}
+.btnn a {
+    text-decoration: none;
+}
+
+.btn-1:hover {
+    color: #fff;
+    background-color: #89253e; 
+    border: none;
+}
+
+.container-1 h3 {
+    color: #fff;
+    margin: 2rem;
+    text-align: center;
+}
+
+#score, #time {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3a6186;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+#question {
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+#answers {
+    display: grid;
+    grid-template-rows: repeat(4, 3rem);
+    gap: 1rem;
+    margin-top: 3rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+#result h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+#result a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: aliceblue;
+    margin-top: 2rem;
+}
+
+#scoreDisplay, #percentageDisplay {
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .btn-1 {
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    #score, #time {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    #question {
+        font-size: 1.2rem;
+    }
+
+    #answers {
+        grid-template-rows: repeat(4, 2.5rem);
+    }
+
+    #result h2 {
+        font-size: 1.5rem;
+    }
+
+    #result a {
+        font-size: 1rem;
+    }
+}
+
